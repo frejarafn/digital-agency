@@ -9,26 +9,18 @@
     font-weight: normal;
 }
 
-/* print tekst og ikon */
-.rute-tekst{
-    text-align: end;
-    padding-right: 2rem;
-    font-weight: bold;
-}
-
-.print-ikon{
-    font-size: 20px;
-}
-
-/* dag knap og ikon */
+/* dato/print knap og ikoner */
 .dage-knap{ 
     background-color: #FFFFFF;
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    border-radius: 25%;
+    border-radius: 12px;
+    font-size: 13.4px;
     margin-left: 2rem;
     cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.7rem;
 }
 
 .pil-ned{
@@ -36,6 +28,20 @@
     cursor: pointer;
     top: 4px;
     font-size: 18px;
+}
+
+.print-ikon{
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    top: 4px;
+}
+
+.kalender-ikon{
+    font-size: 22px;
+    position: relative;
+    cursor: pointer;
+    top: 4px;
 }
 
 
@@ -51,6 +57,8 @@
     margin-right: -1.5rem;
     margin-left: 2rem;
     cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
 }
 
 .transport-knap{ 
@@ -60,6 +68,30 @@
     margin-right: -1.5rem;
     margin-left: 2rem;
     cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.ankomst-knap{ 
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 5px 11px;
+    margin-right: -1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+.aktivitet-knap{ 
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 5px 15px;
+    margin-right: -1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
 }
 
 .slet-ikon{
@@ -67,7 +99,15 @@
     cursor: pointer;
     top: 7px;
     font-size: 28px;
-    padding-left: 3.1rem;
+    padding-left: 2.6rem;
+}
+
+.pil-ned2{
+    position: relative;
+    cursor: pointer;
+    padding-left: 1.5rem;
+    top: 4px;
+    font-size: 18px;
 }
 
 /* indholdskasse */
@@ -102,7 +142,7 @@
 
 .tilføj{
     text-align: center;
-}
+} 
 
 .tilføj-tekst{
     text-align: center;
