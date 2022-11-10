@@ -1,15 +1,98 @@
+
+/*intro*/
 .header-plan{
     text-align: center;
 }
 
 .under-rubrik-plan{
     text-align: center;
+    font-weight: normal;
 }
 
-.dage-knap{
+/* print tekst og ikon */
+.rute-tekst{
+    text-align: end;
+    padding-right: 2rem;
+    font-weight: bold;
+}
+
+.print-ikon{
+    font-size: 20px;
+}
+
+/* dag knap og ikon */
+.dage-knap{ 
     background-color: #FFFFFF;
     display: inline;
-    padding: 0.5rem;
+    padding: 5px 10px;
+    margin-right: -1.5rem;
     border-radius: 25%;
-    margin: 2px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.pil-ned{
+    position: relative;
+    cursor: pointer;
+    top: 4px;
+    font-size: 18px;
+}
+
+
+/* main indhold - tidsplan bokse og knapper*/
+.dag-overskrift{
+    padding-left: 2rem;
+}
+
+.afgang-knap{ 
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 5px 10px;
+    margin-right: -1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.transport-knap{ 
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 5px 10px;
+    margin-right: -1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.slet-ikon{
+    position: relative;
+    cursor: pointer;
+    top: 7px;
+    font-size: 28px;
+    padding-left: 3.1rem;
+}
+
+/* indholdskasse */
+
+.indholdskasse{
+    border-style: solid;
+
+}
+
+.timing{
+    margin-left: 2rem;
+    border-style: solid;
+    width: max-content;
+}
+
+.indholdstekst{
+    margin-left: 2rem;
+    border-style: solid;
+}
+
+.bus-ikon{
+    margin-left: 3rem;
+}
+
+.edit-ikon{
+    padding-left: 7.1rem;
+    font-size: 22px;
 }
