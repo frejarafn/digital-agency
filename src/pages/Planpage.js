@@ -61,7 +61,7 @@ export default function Plan() {
                 <div>
                     <div>
                         <button className="afgang-knap">Afgangstids<IoIosArrowDown className="pil-ned2"/></button> 
-                        <button className="transport-knap">Transport <IoIosArrowDown className="pil-ned2"/></button>
+                        <button className="transport-knap">Begivenhed <IoIosArrowDown className="pil-ned2"/></button>
                         <RiDeleteBack2Fill className="slet-ikon"/>
                     </div>
                 </div>
