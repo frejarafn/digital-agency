@@ -1,3 +1,15 @@
 .header-plan{
     text-align: center;
 }
+
+.under-rubrik-plan{
+    text-align: center;
+}
+
+.dage-knap{
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 25%;
+    margin: 2px;
+}
