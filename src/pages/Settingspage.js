@@ -9,8 +9,8 @@ export default function Settings() {
                         <hr className="linje"></hr>
 
                 <div>
-                    <p className="settings-tekst">Change language</p>
-                        <button className="translate-knap"> English <IoIosArrowForward/></button>
+                    <p className="settings-tekst">Skift sprog</p>
+                        <button className="translate-knap"> Engelsk <IoIosArrowForward/></button>
                     <hr className="linje"></hr>
                 </div>
 
