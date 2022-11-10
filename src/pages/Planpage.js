@@ -33,7 +33,7 @@ export default function Plan() {
                         <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
                     </div>
                 </div>
-                            <br></br>
+                           
                 <div>
                     <div>
                         <button className="ankomst-knap">Ankomsttid <IoIosArrowDown className="pil-ned2"/></button> 
@@ -45,9 +45,8 @@ export default function Plan() {
                         <p className="indholdstekst"> <MdKayaking className="kajak-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
                     </div>
                 </div>
-                            <br></br>
-
-                            <div>
+                           
+                <div>
                     <div>
                         <button className="afgang-knap">Afgangstids <IoIosArrowDown className="pil-ned2"/></button> 
                         <button className="transport-knap">Transport <IoIosArrowDown className="pil-ned2"/></button>
@@ -58,7 +57,6 @@ export default function Plan() {
                         <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
                     </div>
                 </div>
-                            <br></br>
 
                 <div className="tilføj">
                     <MdAddCircleOutline className="tilføj-ikon"/>
