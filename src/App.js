@@ -3,6 +3,7 @@ import HomePage from "./pages/HomePage.js";
 import DiscoverPage from './pages/DiscoverPage.js';
 import PlanPage from './pages/PlanPage.js';
 import SettingsPage from './pages/SettingsPage.js';
+import Navbar from './components/Navigation';
 import Attraction from './pages/Attraction';
 import AttractionItem from './pages/AttractionItem';
 
@@ -19,8 +20,9 @@ function App() {
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/attractions" element={<Attraction />} />
         <Route path="/attractionitem/:ItemId" element={<AttractionItem />} />
-
       </Routes>
+      
+      <Navbar/>
     </div>
   );
 }
