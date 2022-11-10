@@ -1,4 +1,4 @@
-import "../discover.css";
+import "./discover.css";
 export default function Discover() {
 
     return(
