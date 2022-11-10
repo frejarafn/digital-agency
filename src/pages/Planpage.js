@@ -2,6 +2,7 @@ import "../styles/plan.css";
 import {IoIosArrowDown} from 'react-icons/io';
 import {FaPrint, FaBusAlt, FaEdit} from 'react-icons/fa';
 import {RiDeleteBack2Fill} from 'react-icons/ri';
+import {MdAddCircleOutline} from 'react-icons/md';
 import Header from "../components/Header";
 export default function Plan() {
 
@@ -30,7 +31,29 @@ export default function Plan() {
                         <p className="timing">10:30</p>
                         <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/> Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p>
                     </div>
-
+                </div>
+                            <br></br>
+                <div>
+                    <div>
+                        <button className="afgang-knap">Tidspunkt for ankomst <IoIosArrowDown className="pil-ned"/></button> 
+                        <button className="transport-knap">Aktivitet <IoIosArrowDown className="pil-ned"/></button>
+                        <RiDeleteBack2Fill className="slet-ikon"/>
+                    </div>
+                </div>
+                            <br></br>
+                <div className="tilføj">
+                    <MdAddCircleOutline className="tilføj-ikon"/>
+                    <p className="tilføj-tekst">Tilføj ny linje</p>
+                </div>
+                            <br></br>
+                
+                <h3 className="dag-overskrift">Tirsdag den 29. Oktober</h3>
+                <div>
+                    <div>
+                        <button className="afgang-knap">Tidspunkt for afgang <IoIosArrowDown className="pil-ned"/></button> 
+                        <button className="transport-knap">Transport <IoIosArrowDown className="pil-ned"/></button>
+                        <RiDeleteBack2Fill className="slet-ikon"/>
+                    </div>
                 </div>
 
             </section>
