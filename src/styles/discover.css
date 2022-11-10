@@ -1,0 +1,21 @@
+.header-discover{
+    text-align: center;
+}
+
+.under-rubrik-discover{
+    text-align: center;
+}
+
+.column-discover {
+    float: left;
+    width: 33.33%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row-discover:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
