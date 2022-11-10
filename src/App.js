@@ -21,8 +21,8 @@ function App() {
         <Route path="/attractions" element={<Attraction />} />
         <Route path="/attractionitem/:ItemId" element={<AttractionItem />} />
       </Routes>
-      
-      <Navbar/>
+
+      <Navbar />
     </div>
   );
 }

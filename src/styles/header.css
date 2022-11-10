@@ -1,0 +1,23 @@
+:root {
+  --header: rgb(238, 185, 185);
+}
+
+.headerflex {
+  background-color: var(--header);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}
+.headerflex img {
+  width: 100%;
+  
+}
+ 
+
+
+.headerlogo {
+  width: 40%;
+  padding: 10px;
+}
+@media only screen and (min-width: 390px) {
+}

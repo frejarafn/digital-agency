@@ -1,0 +1,24 @@
+.category {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    place-content: center;
+    padding-bottom: 2em;
+  
+  /* grid-template: "container";
+  overflow: hidden;
+  max-height: clamp(450px, 50vh, 600px);
+  position: relative; */
+}
+.category > * {
+    grid-area: 1 / 1;
+  }
+
+.category > img {
+    width: 100%;
+}
+
+.category > div {
+    color: white;
+    font-size: 2.5em;
+}
