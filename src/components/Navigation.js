@@ -6,11 +6,11 @@ import {AiFillCalendar} from 'react-icons/md';
 export default function Navbar() {
 
     return (
-        <div>
+        <nav>
             <NavLink to="/" end><MdHome/></NavLink>
             <NavLink to="/discover" end><TbSearch/></NavLink>
             <NavLink to="/plan" end><AiFillCalendar/></NavLink>
             <NavLink to="/settings" end><MdHome/></NavLink>
-        </div>
+        </nav>
     )
 }
