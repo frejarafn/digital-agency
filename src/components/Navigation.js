@@ -1,8 +1,10 @@
 import "../navigation.css";
+import { NavLink } from "react-router-dom";
 export default function Navbar() {
 
-    return(
+    return (
         <div>
+            <NavLink to="/" end>Freja van Gilst</NavLink>
 
         </div>
     )

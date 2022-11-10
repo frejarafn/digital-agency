@@ -1,7 +1,6 @@
-import "../home.css";
-export default function Home() {
+export default function HomePage() {
 
-    return(
+    return (
         <section>
                         <h1>Velkommen</h1>
         </section>
