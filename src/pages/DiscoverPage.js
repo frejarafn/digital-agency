@@ -1,9 +1,9 @@
 import "../styles/discover.css";
 export default function Discover() {
 
-    return(
+    return (
         <section>
-                    <h1>Vi anbefaler</h1>
+            <h1>Vi anbefaler</h1>
         </section>
     )
 }
