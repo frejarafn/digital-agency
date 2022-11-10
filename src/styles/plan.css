@@ -94,11 +94,22 @@
     padding-bottom: 0.5rem;
 }
 
+.begivenhed-knap{ 
+    background-color: #FFFFFF;
+    display: inline;
+    padding: 5px 10px;
+    margin-right: -1.5rem;
+    margin-left: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
 .slet-ikon{
     position: relative;
     cursor: pointer;
     top: 7px;
-    font-size: 28px;
+    font-size: 27px;
     padding-left: 2.6rem;
 }
 
@@ -111,32 +122,52 @@
 }
 
 /* indholdskasse */
-
-.indholdskasse{
-    border-style: solid;
-
-}
-
 .timing{
     margin-left: 2rem;
     border-style: solid;
     width: max-content;
+    padding: 5px 0 0 0;
+    margin-bottom: -3.5rem;
+    font-weight: bold;
 }
 
 .indholdstekst{
     margin-left: 2rem;
+    padding-right: 8px;
     border-style: solid;
+    width: max-content;
+    padding-top: 0.5rem;
+    font-size: 14px;
+}
+
+.indholdstekst2{
+    margin-left: 4.9rem;
+    margin-top: -0.5rem;
 }
 
 .bus-ikon{
-    margin-left: 3rem;
+    margin-left: 3.3rem;
+    font-size: 20px;
+    margin-bottom: -1rem;
+
 }
 
 .edit-ikon{
-    padding-left: 7.1rem;
+    padding-left: 3.8rem;
     font-size: 22px;
 }
 
+.kajak-ikon{
+    margin-left: 3.3rem;
+    font-size: 20px;
+    margin-bottom: -1rem;
+}
+
+.ticket-ikon{
+    margin-left: 3.3rem;
+    font-size: 20px;
+    margin-bottom: -1rem;
+}
 
 /* Tilføj ny sektion/ */
 

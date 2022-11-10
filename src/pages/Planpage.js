@@ -2,8 +2,9 @@ import "../styles/plan.css";
 import {IoIosArrowDown} from 'react-icons/io';
 import {FaPrint, FaBusAlt, FaEdit} from 'react-icons/fa';
 import {RiDeleteBack2Fill} from 'react-icons/ri';
-import {MdAddCircleOutline} from 'react-icons/md';
+import {MdAddCircleOutline, MdKayaking} from 'react-icons/md';
 import {IoMdCalendar} from 'react-icons/io';
+import {HiOutlineTicket} from 'react-icons/hi';
 import Header from "../components/Header";
 export default function Plan() {
 
@@ -28,8 +29,8 @@ export default function Plan() {
                         <RiDeleteBack2Fill className="slet-ikon"/>
                     </div>
                     <div className="indholdskasse">
-                        <p className="timing">10:30</p>
-                        <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/> Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p>
+                        <p className="timing">10:30 </p>
+                        <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
                     </div>
                 </div>
                             <br></br>
@@ -39,6 +40,10 @@ export default function Plan() {
                         <button className="aktivitet-knap">Aktivitet <IoIosArrowDown className="pil-ned2"/></button>
                         <RiDeleteBack2Fill className="slet-ikon"/>
                     </div> 
+                    <div className="indholdskasse">
+                        <p className="timing">10:45 </p>
+                        <p className="indholdstekst"> <MdKayaking className="kajak-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
+                    </div>
                 </div>
                             <br></br>
 
@@ -48,6 +53,10 @@ export default function Plan() {
                         <button className="transport-knap">Transport <IoIosArrowDown className="pil-ned2"/></button>
                         <RiDeleteBack2Fill className="slet-ikon"/>
                     </div> 
+                    <div className="indholdskasse">
+                        <p className="timing">14:00 </p>
+                        <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
+                    </div>
                 </div>
                             <br></br>
 
@@ -61,8 +70,12 @@ export default function Plan() {
                 <div>
                     <div>
                         <button className="afgang-knap">Afgangstids<IoIosArrowDown className="pil-ned2"/></button> 
-                        <button className="transport-knap">Begivenhed <IoIosArrowDown className="pil-ned2"/></button>
+                        <button className="begivenhed-knap">Begivenhed <IoIosArrowDown className="pil-ned2"/></button>
                         <RiDeleteBack2Fill className="slet-ikon"/>
+                    </div>
+                    <div className="indholdskasse">
+                        <p className="timing">10:45 </p>
+                        <p className="indholdstekst"> <HiOutlineTicket className="ticket-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
                     </div>
                 </div>
 
