@@ -9,10 +9,10 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <NavLink to="/" end><MdHome/></NavLink>
-            <NavLink to="/discover"><HiSearch/></NavLink>
-            <NavLink to="/plan"><AiFillCalendar/></NavLink>
-            <NavLink to="/settings"><IoIosSettings/></NavLink>
+            <NavLink to="/" end><MdHome className="nav-icons"/>Home</NavLink>
+            <NavLink to="/discover"><HiSearch className="nav-icons"/>Discover</NavLink>
+            <NavLink to="/plan"><AiFillCalendar className="nav-icons"/>Plan</NavLink>
+            <NavLink to="/settings"><IoIosSettings className="nav-icons"/>Settings</NavLink>
         </nav>
     )
 }
