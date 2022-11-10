@@ -1,10 +1,11 @@
 import "../styles/setting.css";
 import {IoIosArrowForward} from 'react-icons/io';
-
+import Header from "../components/Header";
 export default function Settings() {
 
     return(
         <section>
+                <Header/>
                     <h1 className="header-settings">Indstillinger & indhold</h1>
                         <hr className="linje"></hr>
 
