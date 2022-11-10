@@ -9,6 +9,7 @@
     overflow: hidden;
     bottom: 0;
     gap: 0.5rem;
+    border-top: solid;
 }
 
 .navbar a {

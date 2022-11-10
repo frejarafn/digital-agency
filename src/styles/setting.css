@@ -1,0 +1,28 @@
+.header-settings{
+    text-align: center;
+}
+
+.linje{
+    width: 80%;
+}
+
+/* Pil ikon */
+.højre-pil{
+    position: relative;
+    left: 3px;
+}
+
+/* oversæt knap */
+.translate-knap{
+background-color: #ffffff;
+cursor: pointer;
+}
+
+.translate-knap:hover{
+    background-color: rgb(162, 169, 173);
+}
+
+/* tekstindhold */
+.settings-tekst{
+font-size: 15px;
+}
