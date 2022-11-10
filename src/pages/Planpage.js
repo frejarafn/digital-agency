@@ -1,4 +1,4 @@
-import "../plan.css";
+import "../styles/plan.css";
 export default function Plan() {
 
     return(

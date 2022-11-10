@@ -1,4 +1,4 @@
-import "../setting.css";
+import "../styles/setting.css";
 export default function Settings() {
 
     return(
