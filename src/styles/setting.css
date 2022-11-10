@@ -8,15 +8,32 @@
 }
 
 /* Pil ikon */
-.højre-pil{
+.højre-pil1{
     position: relative;
-    left: 3px;
+    top: 2px;
+}
+
+.højre-pil2{
+    position: relative;
+    left: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    top: 2px;
+}
+
+.højre-pil3{
+    position: relative;
+    left: 153px;
+    cursor: pointer;
+    font-size: 18px;
+    top: 2px;
 }
 
 /* oversæt knap */
 .translate-knap{
 background-color: #ffffff;
 cursor: pointer;
+margin-left: 8rem;
 }
 
 .translate-knap:hover{
@@ -26,4 +43,5 @@ cursor: pointer;
 /* tekstindhold */
 .settings-tekst{
 font-size: 15px;
+padding-left: 3rem;
 }

@@ -9,21 +9,18 @@ export default function Settings() {
                     <h1 className="header-settings">Indstillinger & indhold</h1>
                         <hr className="linje"></hr>
 
-                <div>
-                    <p className="settings-tekst">Skift sprog</p>
-                        <button className="translate-knap"> Engelsk <IoIosArrowForward/></button>
+                <div className="setting">
+                    <p className="settings-tekst">Skift sprog <button className="translate-knap"> Engelsk <IoIosArrowForward className="højre-pil1"/></button></p>
                     <hr className="linje"></hr>
                 </div>
 
-                <div>
-                    <p className="settings-tekst">Abonnere til vores nyhedsbreve</p> 
-                    <IoIosArrowForward className="højre-pil"/>
+                <div className="setting">
+                    <p className="settings-tekst">Abonnere til vores nyhedsbreve <IoIosArrowForward className="højre-pil2"/></p> 
                         <hr className="linje"></hr>
                 </div>
 
-                <div>
-                    <p className="settings-tekst">Om VisitDenmark</p> 
-                    <IoIosArrowForward className="højre-pil"/>
+                <div className="setting">
+                    <p className="settings-tekst">Om VisitDenmark <IoIosArrowForward className="højre-pil3"/></p> 
                         <hr className="linje"></hr>
                 </div>
 
