@@ -11,7 +11,7 @@ export default function Navbar() {
         <nav className="navbar">
             <NavLink to="/" end><MdHome className="nav-icons"/>Hjem</NavLink>
             <NavLink to="/discover"><HiSearch className="nav-icons"/>Opdag</NavLink>
-            <NavLink to="/plan"><AiFillCalendar className="nav-icons"/>Planlægning</NavLink>
+            <NavLink to="/plan"><AiFillCalendar className="nav-icons"/>Planlæg</NavLink>
             <NavLink to="/settings"><IoIosSettings className="nav-icons"/>Indstillinger</NavLink>
         </nav>
     )
