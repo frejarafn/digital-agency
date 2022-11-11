@@ -8,6 +8,8 @@ export default function HomePage() {
         <section>
             <HeaderHome></HeaderHome>
             <img className="banner" src="/images/homebanner.png" alt=""></img>
+            <img className="city" src="/images/cityscape.png" alt=""></img>
+
             <h1>Velkommen</h1>
             <h1>Hej igen</h1>
             <Categories></Categories>
