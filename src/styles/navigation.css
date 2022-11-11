@@ -11,6 +11,7 @@
     bottom: 0;
     gap: 0.5rem;
     border-top: solid;
+    margin-bottom: 0px;
 }
 
 .navbar a {

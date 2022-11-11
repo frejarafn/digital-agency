@@ -6,8 +6,7 @@ export default function HotelPage() {
     return (
         <section>
             <Header/>
-            <h1 className="header-hotel">Vi anbefaler</h1>
-            <h4 className="under-rubrik-hotel">Søg efter seværdigheder, aktiviteter, transport, hotel og meget mere. Tilføj de forskellige aktiviteter til din tidsplan ved at klikke på hjertet.</h4>
+            <h1 className="header-hotel">Overnatning</h1>
         
         <form className="søgefelt">
             <HiSearch className="søg-ikon"/>
