@@ -5,8 +5,9 @@ import PlanPage from './pages/PlanPage.js';
 import SettingsPage from './pages/SettingsPage.js';
 import AttractionsPage from './pages/ActivitiesPage.js';
 import HotelPage from './pages/HotelPage.js';
-import EventsPage from './pages/EventsPage';
-import ActivitiesPage from './pages/ActivitiesPage';
+import EventsPage from './pages/EventsPage.js';
+import ActivitiesPage from './pages/ActivitiesPage.js';
+import MadDrikkePage from './pages/Mad-DrikkePage.js';
 
 import Navbar from './components/Navigation';
 
@@ -25,6 +26,7 @@ function App() {
         <Route path="/hotel" element={<HotelPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/activities" element={<ActivitiesPage />} />
+        <Route path="/mad-drikke" element={<MadDrikkePage />} />
       </Routes>
       <Navbar />
     </div>
