@@ -21,13 +21,25 @@ export default function Discover() {
         
         <br></br>
 
-        <div>
-            <div> <IoIosArrowBack className="tilbage-pil"/> 
-                <p className="discover-tekst"> <MdOutlineAttractions className="attraktioner1"/>  Attraktioner</p>
-                <p className="discover-tekst"> <RiHotelFill className="hotel1"/>  Hotel</p>
-                <p className="discover-tekst"> <HiOutlineTicket className="events1"/>  Begivenheder</p>
-                <p className="discover-tekst"> <MdKayaking className="aktiviteter1"/>  Aktiviteter</p>
-            <IoIosArrowForward className="frem-pil"/></div>
+        <div className="mulighed">
+            <div>   <IoIosArrowBack className="tilbage-pil"/> 
+                <a href="./AttractionsPage.js"> <MdOutlineAttractions className="attraktioner1"/>
+                    <p className="discover-tekst">Attraktioner</p>
+                </a>
+
+                <a href="./AttractionsPage.js"> <RiHotelFill className="hotel1"/>
+                    <p className="discover-tekst">Hotel</p>
+                </a>
+
+                <a href="./AttractionsPage.js"> <HiOutlineTicket className="events1"/>
+                    <p className="discover-tekst">Begivenheder</p>
+                </a>
+
+                <a href="./AttractionsPage.js"> <MdKayaking className="aktiviteter1"/>
+                    <p className="discover-tekst">Aktiviteter</p>
+                </a>
+                    <IoIosArrowForward className="frem-pil"/>
+            </div>
         </div>
 
         <br></br>
