@@ -2,6 +2,7 @@
 import Headline from '../components/Headline';
 import Form from '../components/Form';
 
+
 export default function Top() {
 
     return (
