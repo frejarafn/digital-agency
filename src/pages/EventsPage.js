@@ -6,8 +6,8 @@ export default function Events() {
     return (
         <section>
             <Header/>
-            <h1 className="header-events">Vi anbefaler</h1>
-            <h4 className="under-rubrik-events">Søg efter seværdigheder, aktiviteter, transport, events og meget mere. Tilføj de forskellige aktiviteter til din tidsplan ved at klikke på hjertet.</h4>
+            <h1 className="header-events">Begivenheder</h1>
+            <h4 className="under-rubrik-events">tekst...</h4>
         
         <form className="søgefelt">
             <HiSearch className="søg-ikon"/>

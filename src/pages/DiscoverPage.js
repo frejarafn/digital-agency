@@ -29,17 +29,17 @@ export default function Discover() {
                     <p className="discover-tekst">Attraktioner</p>
                 </NavLink>
 
-                <a href="./HotelPage.js"> <RiHotelFill className="hotel1"/>
+                <NavLink to ="/hotel"> <RiHotelFill className="hotel1"/>
                     <p className="discover-tekst">Hotel</p>
-                </a>
+                </NavLink>
 
-                <a href="./EventsPage.js"> <HiOutlineTicket className="events1"/>
+                <NavLink to ="/events"> <HiOutlineTicket className="events1"/>
                     <p className="discover-tekst">Begivenheder</p>
-                </a>
+                </NavLink>
 
-                <a href="./ActivitiesPage.js"> <MdKayaking className="aktiviteter1"/>
+                <NavLink to ="/activities"> <MdKayaking className="aktiviteter1"/>
                     <p className="discover-tekst">Aktiviteter</p>
-                </a>
+                </NavLink>
                     <IoIosArrowForward className="frem-pil"/>
             </div>
         </div>
