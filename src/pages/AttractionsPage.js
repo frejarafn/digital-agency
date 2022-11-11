@@ -8,7 +8,7 @@ export default function Attractions() {
         <section>
             <Header/>
             <h1 className="header-attractions"> <MdOutlineAttractions/>Attraktioner</h1>
-            <h4 className="under-rubrik-attractions">Søg efter seværdigheder, aktiviteter, transport, attractions og meget mere. Tilføj de forskellige aktiviteter til din tidsplan ved at klikke på hjertet.</h4>
+            <h4 className="under-rubrik-attractions">tekst...</h4>
         
         <form className="søgefelt">
             <HiSearch className="søg-ikon"/>

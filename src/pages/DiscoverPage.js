@@ -5,6 +5,8 @@ import {MdKayaking, MdOutlineAttractions} from 'react-icons/md';
 import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
 import {HiOutlineTicket} from 'react-icons/hi';
 import {RiHotelFill} from 'react-icons/ri';
+import React from 'react';
+import { NavLink } from "react-router-dom";
 
 export default function Discover() {
 
@@ -23,9 +25,9 @@ export default function Discover() {
 
         <div className="mulighed">
             <div>   <IoIosArrowBack className="tilbage-pil"/> 
-                <a href="./AttractionsPage.js"> <MdOutlineAttractions className="attraktioner1"/>
+                <NavLink to ="/attractions"> <MdOutlineAttractions className="attraktioner1"/>
                     <p className="discover-tekst">Attraktioner</p>
-                </a>
+                </NavLink>
 
                 <a href="./HotelPage.js"> <RiHotelFill className="hotel1"/>
                     <p className="discover-tekst">Hotel</p>
