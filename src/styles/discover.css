@@ -17,6 +17,35 @@
     
 }
 
+/* muligheder knapper/ikoner*/
+.attraktioner1{
+  font-size: 33px;
+}
+
+.hotel1{
+  font-size: 33px;
+}
+
+.events1{
+  font-size: 33px;
+}
+
+.aktiviteter1{
+  font-size: 33px;
+}
+
+.tilbage-pil{
+  font-size: 33px;
+}
+
+.frem-pil{
+  font-size: 33px;
+}
+
+.discover-tekst{
+  
+}
+
 /* Main indhold */
 .column-discover {
     float: left;
