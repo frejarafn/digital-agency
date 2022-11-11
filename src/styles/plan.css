@@ -21,7 +21,7 @@ body{
     margin-right: -1.5rem;
     border-radius: 12px;
     font-size: 13.4px;
-    margin-left: 2rem;
+    margin-left: 1.7rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.7rem;
@@ -51,7 +51,7 @@ body{
 
 /* main indhold - tidsplan bokse og knapper*/
 .dag-overskrift{
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .afgang-knap{ 
@@ -59,7 +59,7 @@ body{
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -70,7 +70,7 @@ body{
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -81,7 +81,7 @@ body{
     display: inline;
     padding: 5px 11px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -92,7 +92,7 @@ body{
     display: inline;
     padding: 5px 15px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -103,7 +103,7 @@ body{
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -127,7 +127,7 @@ body{
 
 /* indholdskasse */
 .timing{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     border-style: solid;
     width: max-content;
     padding: 5px 0 0 0;
@@ -136,7 +136,7 @@ body{
 }
 
 .indholdstekst{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     padding-right: 8px;
     border-style: solid;
     width: max-content;
@@ -157,7 +157,7 @@ body{
 }
 
 .edit-ikon{
-    padding-left: 3.8rem;
+    padding-left: 2.5rem;
     font-size: 22px;
 }
 
