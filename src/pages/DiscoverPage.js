@@ -18,17 +18,14 @@ export default function Discover() {
             <div class="row-discover">
                 <div class="column-discover"> billede</div>
                 <div class="column-discover"> billede</div>
-                <div class="column-discover"> billede</div>
             </div>
 
             <div class="row-discover">
                 <div class="column-discover"> billede</div>
                 <div class="column-discover"> billede</div>
-                <div class="column-discover"> billede</div>
             </div>
 
             <div class="row-discover">
-                <div class="column-discover"> billede</div>
                 <div class="column-discover"> billede</div>
                 <div class="column-discover"> billede</div>
             </div>
