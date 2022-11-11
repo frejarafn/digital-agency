@@ -29,7 +29,7 @@ export default function Plan() {
                         <RiDeleteBack2Fill className="slet-ikon"/>
                     </div>
                     <div className="indholdskasse">
-                        <p className="timing">10:30 </p>
+                        <p className="timing">10:30</p>
                         <p className="indholdstekst"> <FaBusAlt className="bus-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
                     </div>
                 </div>
