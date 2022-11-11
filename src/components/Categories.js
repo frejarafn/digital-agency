@@ -26,7 +26,7 @@ export default function Categories() {
 
     return (
         <>
-            <h2>Kategorier</h2>
+            <h2 className='home'>Planlæg dit besøg i Aarhus</h2>
             {
                 categories.map(place => (<PlaceItem place={place} key={place.Id} />))
             }
