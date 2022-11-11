@@ -17,7 +17,6 @@ function App() {
         <Route path="/plan" element={<PlanPage />} />
         <Route path="/settings" element={<SettingsPage />} />
       </Routes>
-
       <Navbar />
     </div>
   );
