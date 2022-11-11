@@ -7,7 +7,6 @@ export default function Events() {
         <section>
             <Header/>
             <h1 className="header-events">Begivenheder</h1>
-            <h4 className="under-rubrik-events">tekst...</h4>
         
         <form className="søgefelt">
             <HiSearch className="søg-ikon"/>
