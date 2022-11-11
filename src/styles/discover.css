@@ -18,6 +18,14 @@
 }
 
 /* muligheder knapper/ikoner*/
+.discover-tekst{
+  color: rgb(2, 43, 82);
+}
+
+.mulighed{
+  background-color: #ffffff;
+}
+
 .attraktioner1{
   font-size: 33px;
   color: #000000;
@@ -48,14 +56,6 @@
 
 .frem-pil{
   font-size: 33px;
-}
-
-.discover-tekst{
-  color: rgb(2, 43, 82);
-}
-
-.mulighed{
-  background-color: #ffffff;
 }
 
 /* Main indhold */
