@@ -21,4 +21,7 @@
 .category > div {
     color: white;
     font-size: 2.5em;
+    font-family: montserrat,sans-serif;
+font-weight: 700;
+font-style: normal;
 }

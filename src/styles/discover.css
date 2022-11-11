@@ -17,6 +17,47 @@
     
 }
 
+/* muligheder knapper/ikoner*/
+.discover-tekst{
+  color: rgb(2, 43, 82);
+}
+
+.mulighed{
+  background-color: #ffffff;
+}
+
+.attraktioner1{
+  font-size: 33px;
+  color: #000000;
+}
+
+.attraktioner1:hover{
+  color: rgb(231, 0, 19);
+}
+
+.hotel1{
+  font-size: 33px;
+  color: #000000;
+}
+
+.events1{
+  font-size: 33px;
+  color: #000000;
+}
+
+.aktiviteter1{
+  font-size: 33px;
+  color: #000000;
+}
+
+.tilbage-pil{
+  font-size: 33px;
+}
+
+.frem-pil{
+  font-size: 33px;
+}
+
 /* Main indhold */
 .column-discover {
     float: left;

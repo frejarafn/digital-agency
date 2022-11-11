@@ -1,6 +1,11 @@
 import "../styles/discover.css";
 import Header from "../components/Header";
 import {HiSearch} from 'react-icons/hi';
+import {MdKayaking, MdOutlineAttractions} from 'react-icons/md';
+import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
+import {HiOutlineTicket} from 'react-icons/hi';
+import {RiHotelFill} from 'react-icons/ri';
+
 export default function Discover() {
 
     return (
@@ -14,6 +19,31 @@ export default function Discover() {
             <input type="text" placeholder="Søg" name="search"/>
         </form>
         
+        <br></br>
+
+        <div className="mulighed">
+            <div>   <IoIosArrowBack className="tilbage-pil"/> 
+                <a href="./AttractionsPage.js"> <MdOutlineAttractions className="attraktioner1"/>
+                    <p className="discover-tekst">Attraktioner</p>
+                </a>
+
+                <a href="./AttractionsPage.js"> <RiHotelFill className="hotel1"/>
+                    <p className="discover-tekst">Hotel</p>
+                </a>
+
+                <a href="./AttractionsPage.js"> <HiOutlineTicket className="events1"/>
+                    <p className="discover-tekst">Begivenheder</p>
+                </a>
+
+                <a href="./AttractionsPage.js"> <MdKayaking className="aktiviteter1"/>
+                    <p className="discover-tekst">Aktiviteter</p>
+                </a>
+                    <IoIosArrowForward className="frem-pil"/>
+            </div>
+        </div>
+
+        <br></br>
+
         <section>
             <div class="row-discover">
                 <div class="column-discover"> billede</div>
