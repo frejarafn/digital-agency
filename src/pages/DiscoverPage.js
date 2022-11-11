@@ -1,9 +1,8 @@
 import "../styles/discover.css";
 import Header from "../components/Header";
-import {HiSearch} from 'react-icons/hi';
+import {HiSearch, HiOutlineTicket} from 'react-icons/hi';
 import {MdKayaking, MdOutlineAttractions} from 'react-icons/md';
 import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
-import {HiOutlineTicket} from 'react-icons/hi';
 import {RiHotelFill} from 'react-icons/ri';
 import React from 'react';
 import { NavLink } from "react-router-dom";
