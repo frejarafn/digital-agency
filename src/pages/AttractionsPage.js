@@ -1,7 +1,7 @@
 import "../styles/attractions.css";
 import Header from "../components/Header";
 import {HiSearch} from 'react-icons/hi';
-export default function attractions() {
+export default function Attractions() {
 
     return (
         <section>

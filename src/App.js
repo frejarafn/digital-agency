@@ -3,6 +3,10 @@ import HomePage from "./pages/HomePage.js";
 import DiscoverPage from './pages/DiscoverPage.js';
 import PlanPage from './pages/PlanPage.js';
 import SettingsPage from './pages/SettingsPage.js';
+import AttractionsPage from './pages/ActivitiesPage.js';
+import HotelPage from './pages/HotelPage.js';
+import EventsPage from './pages/EventsPage';
+import ActivitiesPage from './pages/ActivitiesPage';
 
 import Navbar from './components/Navigation';
 
@@ -17,10 +21,10 @@ function App() {
         <Route path="/discover" element={<DiscoverPage />} />
         <Route path="/plan" element={<PlanPage />} />
         <Route path="/settings" element={<SettingsPage />} />
-        <Route path="/attractions" element={<SettingsPage />} />
-        <Route path="/hotel" element={<SettingsPage />} />
-        <Route path="/events" element={<SettingsPage />} />
-        <Route path="/activities" element={<SettingsPage />} />
+        <Route path="/attractions" element={<AttractionsPage />} />
+        <Route path="/hotel" element={<HotelPage />} />
+        <Route path="/events" element={<EventsPage />} />
+        <Route path="/activities" element={<ActivitiesPage />} />
       </Routes>
       <Navbar />
     </div>
