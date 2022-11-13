@@ -1,4 +1,8 @@
 
+body{
+    font-family: montserrat,sans-serif;
+  }
+
 /*intro*/
 .header-plan{
     text-align: center;
@@ -7,6 +11,9 @@
 .under-rubrik-plan{
     text-align: center;
     font-weight: normal;
+    padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* dato/print knap og ikoner */
@@ -17,7 +24,7 @@
     margin-right: -1.5rem;
     border-radius: 12px;
     font-size: 13.4px;
-    margin-left: 2rem;
+    margin-left: 1.7rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.7rem;
@@ -38,7 +45,7 @@
 }
 
 .kalender-ikon{
-    font-size: 22px;
+    font-size: 20px;
     position: relative;
     cursor: pointer;
     top: 4px;
@@ -47,7 +54,7 @@
 
 /* main indhold - tidsplan bokse og knapper*/
 .dag-overskrift{
-    padding-left: 2rem;
+    padding-left: 1.5rem;
 }
 
 .afgang-knap{ 
@@ -55,7 +62,7 @@
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -66,7 +73,7 @@
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -77,7 +84,7 @@
     display: inline;
     padding: 5px 11px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -88,7 +95,7 @@
     display: inline;
     padding: 5px 15px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -99,7 +106,7 @@
     display: inline;
     padding: 5px 10px;
     margin-right: -1.5rem;
-    margin-left: 2rem;
+    margin-left: 1.8rem;
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
@@ -122,9 +129,13 @@
 }
 
 /* indholdskasse */
+
+.indholdskasse{
+    padding-top: 0.5rem;
+}
+
 .timing{
-    margin-left: 2rem;
-    border-style: solid;
+    margin-left: 1.8rem;
     width: max-content;
     padding: 5px 0 0 0;
     margin-bottom: -3.5rem;
@@ -132,7 +143,7 @@
 }
 
 .indholdstekst{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     padding-right: 8px;
     border-style: solid;
     width: max-content;
@@ -149,11 +160,10 @@
     margin-left: 3.3rem;
     font-size: 20px;
     margin-bottom: -1rem;
-
 }
 
 .edit-ikon{
-    padding-left: 3.8rem;
+    padding-left: 2.5rem;
     font-size: 22px;
 }
 

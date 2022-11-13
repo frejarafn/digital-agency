@@ -1,0 +1,28 @@
+/* søge felt*/
+.søgefelt{
+    text-align: center;
+    padding-right: 1rem;
+  }
+  
+  .søg-ikon{
+    position: relative;
+    top: 3px;
+    left: 2.8vh;
+  }
+
+  .input-søge{
+    padding: 5px 1.7rem;
+    border-style: solid;
+  }
+
+  /* lille tekst under søgefeltet*/
+  .lille-tekst-container{
+    text-align: center;
+  }
+
+  .lille-tekst{
+    font-size: 10px;
+    color: black;
+  }
+
+ 

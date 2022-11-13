@@ -1,17 +1,15 @@
 import "../styles/hotel.css";
 import Header from "../components/Header";
-import {HiSearch} from 'react-icons/hi';
+import Søgefelt from "../components/søgefelt";
+import {RiHotelFill} from 'react-icons/ri';
 export default function HotelPage() {
 
     return (
         <section>
             <Header/>
-            <h1 className="header-hotel">Overnatning</h1>
+            <h1 className="header-hotel"> <RiHotelFill/> Overnatning</h1>
         
-        <form className="søgefelt">
-            <HiSearch className="søg-ikon"/>
-            <input type="text" placeholder="Søg" name="search"/>
-        </form>
+        <Søgefelt/>
         
         <section>
             <div class="row-hotel">

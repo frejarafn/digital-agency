@@ -7,9 +7,19 @@ export default function HomePage() {
     return (
         <section>
             <HeaderHome></HeaderHome>
+
             <img className="banner" src="/images/homebanner.png" alt=""></img>
-            <h1>Velkommen</h1>
-            <h1>Hej igen</h1>
+
+
+            <div class="citycontainer">
+                <img className="city" src="/images/cityscape.png" alt=""></img>
+                <div class="text-block">
+                    <h4>Aarhus</h4>
+                </div>
+            </div>
+
+
+            <h2 className="home">Hvad vil du gerne opleve?</h2>
             <Categories></Categories>
         </section>
     )

@@ -1,3 +1,39 @@
 .banner {
     width: 100%;
 }
+
+body{
+    font-family: montserrat,sans-serif;
+  }
+.city {
+    margin: 1em;
+}
+
+/* Container holding the image and the text */
+.citycontainer {
+    position: relative;
+  text-align: center;
+  color: white;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    color: black;
+    border: 1px solid grey;
+  }
+
+  .text-block h4 {
+    margin: 0;
+
+  }
+
+  .home {
+    text-align: center;
+    color: #082747;
+    font-size: 1.2em;
+  }

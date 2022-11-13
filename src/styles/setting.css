@@ -7,6 +7,10 @@
     width: 80%;
 }
 
+body{
+    font-family: montserrat,sans-serif;
+  }
+
 /* Pil ikon */
 .højre-pil1{
     position: relative;
@@ -15,7 +19,7 @@
 
 .højre-pil2{
     position: relative;
-    left: 60px;
+    left: 53px;
     cursor: pointer;
     font-size: 18px;
     top: 2px;
