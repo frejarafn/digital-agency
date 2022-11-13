@@ -1,4 +1,5 @@
 // input form til top.js component
+import React from "react"
 
 export default function Form({title, setTitle}) {
 
