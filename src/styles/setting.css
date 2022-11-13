@@ -1,3 +1,7 @@
+body{
+    font-family: montserrat,sans-serif;
+  }
+
 .header-settings{
     text-align: center;
     font-size: 20px;
@@ -6,10 +10,6 @@
 .linje{
     width: 80%;
 }
-
-body{
-    font-family: montserrat,sans-serif;
-  }
 
 /* Pil ikon */
 .højre-pil1{

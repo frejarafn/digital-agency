@@ -66,6 +66,7 @@ body{
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
+    border-width: 1.5px;
 }
 
 .transport-knap{ 
@@ -77,6 +78,7 @@ body{
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
+    border-width: 1.5px;
 }
 
 .ankomst-knap{ 
@@ -88,6 +90,7 @@ body{
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
+    border-width: 1.5px;
 }
 
 .aktivitet-knap{ 
@@ -99,6 +102,7 @@ body{
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
+    border-width: 1.5px;
 }
 
 .begivenhed-knap{ 
@@ -110,6 +114,7 @@ body{
     cursor: pointer;
     font-weight: bold;
     padding-bottom: 0.5rem;
+    border-width: 1.5px;
 }
 
 .slet-ikon{
@@ -146,6 +151,7 @@ body{
     margin-left: 1.5rem;
     padding-right: 8px;
     border-style: solid;
+    border-width: 1px;
     width: max-content;
     padding-top: 0.5rem;
     font-size: 14px;
