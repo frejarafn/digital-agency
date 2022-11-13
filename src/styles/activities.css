@@ -1,3 +1,21 @@
 body{
     font-family: montserrat,sans-serif;
   }
+
+  .header-activities{
+    text-align: center;
+  }
+
+   /* Main indhold */
+.column-activities {
+  float: left;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.row-activities:after {
+  content: "";
+  display: table;
+  clear: both;
+}
