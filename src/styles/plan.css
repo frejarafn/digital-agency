@@ -129,6 +129,10 @@ body{
 }
 
 /* indholdskasse */
+
+.indholdskasse{
+    padding-top: 0.5rem;
+}
 .timing{
     margin-left: 1.8rem;
     width: max-content;
