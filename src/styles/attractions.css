@@ -1,11 +1,20 @@
 body{
     font-family: montserrat,sans-serif;
   }
+  
+  .attraktion{
+    text-align: center;
+  }
+
+  .attraktion-ikon2{
+    font-size: 50px;
+    padding-top: 15px;
+  }
 
   .header-attractions{
     text-align: center;
+    margin-top: -5px;
   }
-  
 
   /* Main indhold */
 .column-attractions {

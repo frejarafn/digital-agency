@@ -7,7 +7,10 @@ export default function Attractions() {
     return (
         <section>
         <Header/>
-            <h1 className="header-attractions"> <MdOutlineAttractions/>Attraktioner</h1>
+            <div className="attraktion">
+            <MdOutlineAttractions className="attraktion-ikon2"/>
+            <h1 className="header-attractions">Attraktioner</h1>
+            </div>
         
         <Søgefelt/>
         
