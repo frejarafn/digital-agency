@@ -1,7 +1,6 @@
 import "../styles/discover.css";
 import Header from "../components/Header";
-import Søgefelt from "../components/søgefelt";
-import {HiOutlineTicket} from 'react-icons/hi';
+import {HiSearch,HiOutlineTicket} from 'react-icons/hi';
 import {MdKayaking, MdOutlineAttractions} from 'react-icons/md';
 import {IoIosArrowForward, IoIosArrowBack} from 'react-icons/io';
 import {RiHotelFill} from 'react-icons/ri';
@@ -16,7 +15,10 @@ export default function Discover() {
             <h1 className="header-discover">Vi anbefaler</h1>
             <h4 className="under-rubrik-discover">Søg efter seværdigheder, aktiviteter, transport, hotel og meget mere. Tilføj de forskellige aktiviteter til din tidsplan ved at klikke på hjertet.</h4>
         
-       <Søgefelt/>
+        <form className="søgefelt2">
+            <HiSearch className="søg-ikon2"/>
+            <input type="text" placeholder="Søg" name="search" className="input-søge2"/>
+        </form>
         
         <br></br>
 
@@ -39,6 +41,10 @@ export default function Discover() {
                 </NavLink>
                     <IoIosArrowForward className="frem-pil"/>
             </div>
+        </div>
+
+        <div className="lille-tekst-container2">
+            <p className="lille-tekst2">Sorter efter: <u>Popularitet</u>, Alfabetisk, Pris (lav til høj) </p>
         </div>
 
         <br></br>
