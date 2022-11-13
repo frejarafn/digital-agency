@@ -6,9 +6,11 @@ export default function Settings() {
     return(
         <section>
                 <Header/>
+                 {/*intro*/}
                     <h1 className="header-settings">Indstillinger & Kontakt</h1>
                         <hr className="linje"></hr>
-
+                        
+                {/*main indhold*/}
                 <div className="setting">
                     <p className="settings-tekst">Skift Sprog <button className="translate-knap"> Dansk <IoIosArrowForward className="højre-pil1"/></button></p>
                     <hr className="linje"></hr>

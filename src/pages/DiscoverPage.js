@@ -12,6 +12,7 @@ export default function Discover() {
     return (
         <section>
         <Header/>
+         {/*intro*/}
             <h1 className="header-discover">Vi anbefaler</h1>
             <h4 className="under-rubrik-discover">Søg efter seværdigheder, aktiviteter, transport, hotel og meget mere. Tilføj de forskellige aktiviteter til din tidsplan ved at klikke på hjertet.</h4>
         
@@ -22,6 +23,7 @@ export default function Discover() {
         
         <br></br>
 
+         {/*indholds mulighed*/}
         <div className="mulighed">
             <div>   <IoIosArrowBack className="tilbage-pil"/> 
                 <NavLink to ="/attractions"> <MdOutlineAttractions className="attraktioner1"/>
@@ -43,12 +45,14 @@ export default function Discover() {
             </div>
         </div>
 
+         {/*sortering*/}
         <div className="lille-tekst-container2">
             <p className="lille-tekst2">Sorter efter: <u>Popularitet</u>, Alfabetisk, Pris (lav til høj) </p>
         </div>
 
         <br></br>
-
+        
+         {/*main indhold*/}
         <section>
             <div class="row-discover">
                 <div class="column-discover"> billede</div>

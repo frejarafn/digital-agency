@@ -7,6 +7,7 @@ export default function activities() {
     return (
         <section>
             <Header/>
+             {/*intro*/}
                 <div className="activities">
                     <MdKayaking className="activities-ikon2"/>
                     <h1 className="header-activities">  Aktiviteter</h1>
@@ -14,7 +15,7 @@ export default function activities() {
 
         <Søgefelt/>
 
-        
+         {/*main indhold*/}
         <section>
             <div class="row-activities">
                 <div class="column-activities"> billede</div>

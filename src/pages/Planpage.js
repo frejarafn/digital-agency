@@ -11,6 +11,7 @@ export default function Plan() {
     return(
         <section>
             <Header/> 
+             {/*intro*/}
             <h1 className="header-plan">Din Rejseplan</h1>
                    
             <h4 className="under-rubrik-plan"> Få et overblik over din rejse ved at tilføje rejsetider, destinationer, aktiviteter samt detaljer for overnatninger med mere. Start ved at vælge forudindstillingerne for din rejseplan herunder.</h4>
@@ -18,7 +19,7 @@ export default function Plan() {
                 <button className="dage-knap">Dato til og fra <IoMdCalendar className="kalender-ikon"/> <IoIosArrowDown className="pil-ned"/></button> 
                 <button className="dage-knap">Gem eller print <FaPrint className="print-ikon"/> <IoIosArrowDown className="pil-ned"/></button>
 
-
+            {/*rejsetider - kasser*/}
             <section>
                 <h3 className="dag-overskrift">Mandag den 28. Oktober</h3>
                 
