@@ -31,48 +31,74 @@ body{
   border-style: solid;
 }
 
-/* muligheder knapper/ikoner*/
-.discover-ikon-tekst{
-  color: rgb(2, 43, 82);
-}
 
+/* muligheds content/ikoner */
 .mulighed{
   background-color: #ffffff;
+  
+}
+
+.mulighedsikoner{
+  gap: 2rem;
+  padding: 2px;
+  text-align: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.mulighedstekst{
+display: flex;
+gap: 1.9rem;
+padding-right: 13px;
+padding-left: 9px;
+text-align: center;
+justify-content: center;
+margin-top: -15px;
+}
+
+.discover-ikon-tekst{
+  color: rgb(2, 43, 82);
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .attraktioner1{
-  font-size: 33px;
+  font-size: 40px;
   color: #000000;
-}
-
-.attraktioner1:hover{
-  color: rgb(231, 0, 19);
+  cursor: pointer;
 }
 
 .hotel1{
-  font-size: 33px;
+  font-size: 40px;
   color: #000000;
+  cursor: pointer;
 }
 
 .events1{
-  font-size: 33px;
+  font-size: 40px;
   color: #000000;
+  cursor: pointer;
 }
 
 .aktiviteter1{
-  font-size: 33px;
+  font-size: 40px;
   color: #000000;
+  cursor: pointer;
 }
 
 .tilbage-pil{
-  font-size: 33px;
+  font-size: 40px;
+  color: #000000;
+  cursor: pointer;
 }
 
 .frem-pil{
-  font-size: 33px;
+  font-size: 40px;
+  color: #000000;
+  cursor: pointer;
 }
 
-/* lille tekst under søgefeltet*/
+/* lille tekst under muligheds content*/
 .lille-tekst-container2{
   text-align: center;
 }
