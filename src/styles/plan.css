@@ -45,7 +45,7 @@ body{
 }
 
 .kalender-ikon{
-    font-size: 22px;
+    font-size: 20px;
     position: relative;
     cursor: pointer;
     top: 4px;
@@ -133,6 +133,7 @@ body{
 .indholdskasse{
     padding-top: 0.5rem;
 }
+
 .timing{
     margin-left: 1.8rem;
     width: max-content;
