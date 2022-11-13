@@ -1,19 +1,15 @@
 import "../styles/attractions.css";
+import Søgefelt from "../components/søgefelt";
 import Header from "../components/Header";
-import {HiSearch} from 'react-icons/hi';
 import {MdOutlineAttractions} from 'react-icons/md';
 export default function Attractions() {
 
     return (
         <section>
-            <Header/>
+        <Header/>
             <h1 className="header-attractions"> <MdOutlineAttractions/>Attraktioner</h1>
-            <h4 className="under-rubrik-attractions">tekst...</h4>
         
-        <form className="søgefelt">
-            <HiSearch className="søg-ikon"/>
-            <input type="text" placeholder="Søg" name="search"/>
-        </form>
+        <Søgefelt/>
         
         <section>
             <div class="row-attractions">

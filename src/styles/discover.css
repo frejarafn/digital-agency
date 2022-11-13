@@ -11,16 +11,6 @@ body{
     font-weight: normal;
 }
 
-/* søge felt*/
-.søgefelt{
-  text-align: center;
-}
-
-.søg-ikon{
-  position: relative;
-    
-}
-
 /* muligheder knapper/ikoner*/
 .discover-tekst{
   color: rgb(2, 43, 82);

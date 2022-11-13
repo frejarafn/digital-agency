@@ -3,7 +3,7 @@ import HomePage from "./pages/HomePage.js";
 import DiscoverPage from './pages/DiscoverPage.js';
 import PlanPage from './pages/PlanPage.js';
 import SettingsPage from './pages/SettingsPage.js';
-import AttractionsPage from './pages/ActivitiesPage.js';
+import AttractionsPage from './pages/AttractionsPage.js';
 import HotelPage from './pages/HotelPage.js';
 import EventsPage from './pages/EventsPage.js';
 import ActivitiesPage from './pages/ActivitiesPage.js';

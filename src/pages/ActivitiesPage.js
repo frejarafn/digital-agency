@@ -1,6 +1,6 @@
 import "../styles/activities.css";
 import Header from "../components/Header";
-import {HiSearch} from 'react-icons/hi';
+import Søgefelt from "../components/søgefelt";
 import {MdKayaking} from 'react-icons/md';
 export default function activities() {
 
@@ -9,10 +9,7 @@ export default function activities() {
             <Header/>
             <h1 className="header-activities"> <MdKayaking/> Aktiviteter</h1>
         
-        <form className="søgefelt">
-            <HiSearch className="søg-ikon"/>
-            <input type="text" placeholder="Søg" name="search"/>
-        </form>
+        <Søgefelt/>
         
         <section>
             <div class="row-activities">

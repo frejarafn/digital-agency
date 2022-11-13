@@ -12,6 +12,8 @@ body{
     text-align: center;
     font-weight: normal;
     padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* dato/print knap og ikoner */
@@ -52,7 +54,7 @@ body{
 
 /* main indhold - tidsplan bokse og knapper*/
 .dag-overskrift{
-    padding-left: 1rem;
+    padding-left: 1.5rem;
 }
 
 .afgang-knap{ 
@@ -128,8 +130,7 @@ body{
 
 /* indholdskasse */
 .timing{
-    margin-left: 1.5rem;
-    border-right: solid;
+    margin-left: 1.8rem;
     width: max-content;
     padding: 5px 0 0 0;
     margin-bottom: -3.5rem;
