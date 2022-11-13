@@ -27,19 +27,19 @@ export default function Discover() {
         <div className="mulighed">
             <div>   <IoIosArrowBack className="tilbage-pil"/> 
                 <NavLink to ="/attractions"> <MdOutlineAttractions className="attraktioner1"/>
-                    <p className="discover-tekst">Attraktioner</p>
+                    <p className="discover-ikon-tekst">Attraktioner</p>
                 </NavLink>
 
                 <NavLink to ="/hotel"> <RiHotelFill className="hotel1"/>
-                    <p className="discover-tekst">Hotel</p>
+                    <p className="discover-ikon-tekst">Hotel</p>
                 </NavLink>
 
                 <NavLink to ="/events"> <HiOutlineTicket className="events1"/>
-                    <p className="discover-tekst">Begivenheder</p>
+                    <p className="discover-ikon-tekst">Begivenheder</p>
                 </NavLink>
 
                 <NavLink to ="/activities"> <MdKayaking className="aktiviteter1"/>
-                    <p className="discover-tekst">Aktiviteter</p>
+                    <p className="discover-ikon-tekst">Aktiviteter</p>
                 </NavLink>
                     <IoIosArrowForward className="frem-pil"/>
             </div>
@@ -51,7 +51,7 @@ export default function Discover() {
         </div>
 
         <br></br>
-        
+
          {/*main indhold*/}
         <section>
             <div class="row-discover">
