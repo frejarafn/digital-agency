@@ -9,6 +9,9 @@ body{
 .under-rubrik-discover{
     text-align: center;
     font-weight: normal;
+    padding: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 /* søge felt*/
