@@ -2,3 +2,31 @@ body{
     font-family: montserrat,sans-serif;
   }
   
+  .mad-drikke{
+    text-align: center;
+  }
+
+  .mad-drikke-ikon2{
+    font-size: 50px;
+    padding-top: 15px;
+  } 
+
+  .header-mad-drikke{
+    text-align: center;
+    margin-top: -5px;
+  }
+
+
+    /* Main indhold */
+.column-mad-drikke {
+  float: left;
+  width: 50%;
+  justify-content: center;
+  text-align: center;
+}
+
+.row-mad-drikke:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -1,17 +1,18 @@
 import "../styles/mad-drikke.css";
 import Header from "../components/Header";
-import {HiSearch} from 'react-icons/hi';
+import Søgefelt from "../components/søgefelt";
+import {MdFoodBank} from 'react-icons/md';
 export default function MadDrikkePage() {
 
     return (
         <section>
             <Header/>
-            <h1 className="header-mad-drikke"> Mad og Drikke</h1>
+                <div className="hotel">
+                    <MdFoodBank className="mad-drikke-ikon2"/>
+                    <h1 className="header-mad-drikke">  Mad og Drikke</h1>
+                </div>
         
-        <form className="søgefelt">
-            <HiSearch className="søg-ikon"/>
-            <input type="text" placeholder="Søg" name="search"/>
-        </form>
+        <Søgefelt/>
         
         <section>
             <div class="row-mad-drikke">
