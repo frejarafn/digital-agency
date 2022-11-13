@@ -2,9 +2,21 @@ body{
     font-family: montserrat,sans-serif;
   }
 
-  .header-hotel{
+
+  .hotel{
     text-align: center;
   }
+
+  .hotel-ikon2{
+    font-size: 50px;
+    padding-top: 15px;
+  } 
+
+  .header-hotel{
+    text-align: center;
+    margin-top: -5px;
+  }
+
 
    /* Main indhold */
 .column-hotel {

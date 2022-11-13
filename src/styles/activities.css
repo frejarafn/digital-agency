@@ -2,8 +2,19 @@ body{
     font-family: montserrat,sans-serif;
   }
 
+
+  .activities{
+    text-align: center;
+  }
+
+  .activities-ikon2{
+    font-size: 50px;
+    padding-top: 15px;
+  } 
+
   .header-activities{
     text-align: center;
+    margin-top: -5px;
   }
 
    /* Main indhold */

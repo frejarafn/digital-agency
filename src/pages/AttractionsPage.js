@@ -8,8 +8,8 @@ export default function Attractions() {
         <section>
         <Header/>
             <div className="attraktion">
-            <MdOutlineAttractions className="attraktion-ikon2"/>
-            <h1 className="header-attractions">Attraktioner</h1>
+                <MdOutlineAttractions className="attraktion-ikon2"/>
+                <h1 className="header-attractions">Attraktioner</h1>
             </div>
         
         <Søgefelt/>

@@ -7,8 +7,11 @@ export default function Events() {
     return (
         <section>
             <Header/>
-            <h1 className="header-events"> <HiOutlineTicket/>  Begivenheder</h1>
-        
+                <div className="events">
+                    <HiOutlineTicket className="events-ikon2"/>
+                    <h1 className="header-events">  Begivenheder</h1>
+                </div>
+
         <Søgefelt/>
         
         <section>

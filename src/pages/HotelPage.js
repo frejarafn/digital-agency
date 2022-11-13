@@ -7,8 +7,11 @@ export default function HotelPage() {
     return (
         <section>
             <Header/>
-            <h1 className="header-hotel"> <RiHotelFill/> Overnatning</h1>
-        
+                <div className="hotel">
+                    <RiHotelFill className="hotel-ikon2"/>
+                    <h1 className="header-hotel">  Overnatning</h1>
+                </div>
+                
         <Søgefelt/>
         
         <section>

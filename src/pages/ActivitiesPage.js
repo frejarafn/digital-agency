@@ -7,9 +7,13 @@ export default function activities() {
     return (
         <section>
             <Header/>
-            <h1 className="header-activities"> <MdKayaking/> Aktiviteter</h1>
-        
+                <div className="activities">
+                    <MdKayaking className="activities-ikon2"/>
+                    <h1 className="header-activities">  Aktiviteter</h1>
+                </div>
+
         <Søgefelt/>
+
         
         <section>
             <div class="row-activities">
