@@ -11,7 +11,7 @@ export default function HomePage() {
             <img className="banner" src="/images/homebanner.png" alt=""></img>
 
 
-            <div class="citycontainer">
+            <div className="citycontainer">
                 <img className="city" src="/images/cityscape.png" alt=""></img>
                 <div className="text-block">
                     <h4>Aarhus</h4>
