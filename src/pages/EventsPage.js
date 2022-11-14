@@ -10,7 +10,7 @@ export default function Events() {
              {/*intro*/}
                 <div className="events">
                     <HiOutlineTicket className="events-ikon2"/>
-                    <h1 className="header-events">  Events</h1>
+                    <h1 className="header-events">  Begivenheder</h1>
                 </div>
 
         <Søgefelt/>
