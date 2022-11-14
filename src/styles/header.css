@@ -6,7 +6,8 @@
   height: 70px;
   display: flex;
   justify-content: center;
-
+  border-bottom: solid;
+  border-width: 0.5px;
 }
 
 .headerflex img {
