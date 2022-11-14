@@ -13,8 +13,6 @@ export default function Settings() {
             {/*main indhold*/}
             <div className="setting">
                 <p className="settings-tekst">Skift Sprog <button className="translate-knap">
-                    <img className="flag" src="/images/danmark.png" alt=""></img>
-
                     Dansk
                     <IoIosArrowForward className="højre-pil1" /></button></p>
                 <hr className="linje"></hr>
