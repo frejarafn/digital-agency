@@ -17,17 +17,17 @@ export default function Events() {
 
          {/*main indhold*/}
         <section>
-            <div class="row-events">
+            <div className="row-events">
                 <div className="column-events"> billede</div>
                 <div className="column-events"> billede</div>
             </div>
 
-            <div class="row-events">
+            <div className="row-events">
                 <div className="column-events"> billede</div>
                 <div className="column-events"> billede</div>
             </div>
 
-            <div class="row-events">
+            <div className="row-events">
                 <div className="column-events"> billede</div>
                 <div className="column-events"> billede</div>
             </div>

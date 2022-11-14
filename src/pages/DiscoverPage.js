@@ -51,17 +51,17 @@ export default function Discover() {
 
          {/*main indhold*/}
         <section>
-            <div class="row-discover">
+            <div className="row-discover">
                 <div className="column-discover"> billede</div>
                 <div className="column-discover"> billede</div>
             </div>
 
-            <div class="row-discover">
+            <div className="row-discover">
                 <div className="column-discover"> billede</div>
                 <div className="column-discover"> billede</div>
             </div>
 
-            <div class="row-discover">
+            <div className="row-discover">
                 <div className="column-discover"> billede</div>
                 <div className="column-discover"> billede</div>
             </div>

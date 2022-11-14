@@ -17,17 +17,17 @@ export default function HotelPage() {
 
          {/*main indhold*/}
         <section>
-            <div class="row-hotel">
+            <div className="row-hotel">
                 <div className="column-hotel"> billede</div>
                 <div className="column-hotel"> billede</div>
             </div>
 
-            <div class="row-hotel">
+            <div className="row-hotel">
                 <div className="column-hotel"> billede</div>
                 <div className="column-hotel"> billede</div>
             </div>
 
-            <div class="row-hotel">
+            <div className="row-hotel">
                 <div className="column-hotel"> billede</div>
                 <div className="column-hotel"> billede</div>
             </div>

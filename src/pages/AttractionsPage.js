@@ -17,17 +17,17 @@ export default function Attractions() {
         
          {/*main indhold*/}
         <section>
-            <div class="row-attractions">
+            <div className="row-attractions">
                 <div className="column-attractions"> billede</div>
                 <div className="column-attractions"> billede</div>
             </div>
 
-            <div class="row-attractions">
+            <div className="row-attractions">
                 <div className="column-attractions"> billede</div>
                 <div className="column-attractions"> billede</div>
             </div>
 
-            <div class="row-attractions">
+            <div className="row-attractions">
                 <div className="column-attractions"> billede</div>
                 <div className="column-attractions"> billede</div>
             </div>

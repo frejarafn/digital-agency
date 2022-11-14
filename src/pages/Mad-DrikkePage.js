@@ -17,17 +17,17 @@ export default function MadDrikkePage() {
         
          {/*main indhold*/}
         <section>
-            <div class="row-mad-drikke">
+            <div className="row-mad-drikke">
                 <div className="column-mad-drikke"> billede</div>
                 <div className="column-mad-drikke"> billede</div>
             </div>
 
-            <div class="row-mad-drikke">
+            <div className="row-mad-drikke">
                 <div className="column-mad-drikke"> billede</div>
                 <div className="column-mad-drikke"> billede</div>
             </div>
 
-            <div class="row-mad-drikke">
+            <div className="row-mad-drikke">
                 <div className="column-mad-drikke"> billede</div>
                 <div className="column-mad-drikke"> billede</div>
             </div>

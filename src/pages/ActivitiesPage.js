@@ -19,7 +19,7 @@ export default function activities() {
 
             {/*main indhold*/}
             <section>
-                <div class="row-activities">
+                <div className="row-activities">
                     <div className="column-activities"> billede</div>
                     <div className="column-activities"> billede</div>
                 </div>
@@ -31,17 +31,17 @@ export default function activities() {
             </section>
 
                 <section>
-                    <div class="row-activities">
+                    <div className="row-activities">
                         <div className="column-activities"> billede</div>
                         <div className="column-activities"> billede</div>
                     </div>
 
-                    <div class="row-activities">
+                    <div className="row-activities">
                         <div className="column-activities"> billede</div>
                         <div className="column-activities"> billede</div>
                     </div>
 
-                    <div class="row-activities">
+                    <div className="row-activities">
                         <div className="column-activities"> billede</div>
                         <div className="column-activities"> billede</div>
                     </div>
