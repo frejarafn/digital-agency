@@ -3,11 +3,12 @@
 }
 
 .headerflex {
-  background-color: var(--header);
   height: 70px;
   display: flex;
   justify-content: center;
+
 }
+
 .headerflex img {
   width: 100%;
   
