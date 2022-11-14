@@ -30,6 +30,10 @@ export default function HomePage() {
 
 
             <Categories></Categories>
+
+            <h2 className="home">Opdag nye oplevelser</h2>
+            <p className="homep">Kig igennem vores favoritter du bare må opleve når du besøger den kulturelle smilets by, Aarhus.</p>
+
         </section>
     )
 }

@@ -44,8 +44,16 @@ body{
 
   .home {
     text-align: center;
-    color: #082747;
+    color:rgb(2, 43, 82);
     font-size: 1.2em;
+  }
+
+  .homep {
+    text-align: center;
+    color: rgb(2, 43, 82);
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
   }
 
 
