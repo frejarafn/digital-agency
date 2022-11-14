@@ -20,8 +20,8 @@ export default function activities() {
             {/*main indhold*/}
             <section>
                 <div class="row-activities">
-                    <div class="column-activities"> billede</div>
-                    <div class="column-activities"> billede</div>
+                    <div className="column-activities"> billede</div>
+                    <div className="column-activities"> billede</div>
                 </div>
 
                 <form className="søgefelt">
@@ -32,18 +32,18 @@ export default function activities() {
 
                 <section>
                     <div class="row-activities">
-                        <div class="column-activities"> billede</div>
-                        <div class="column-activities"> billede</div>
+                        <div className="column-activities"> billede</div>
+                        <div className="column-activities"> billede</div>
                     </div>
 
                     <div class="row-activities">
-                        <div class="column-activities"> billede</div>
-                        <div class="column-activities"> billede</div>
+                        <div className="column-activities"> billede</div>
+                        <div className="column-activities"> billede</div>
                     </div>
 
                     <div class="row-activities">
-                        <div class="column-activities"> billede</div>
-                        <div class="column-activities"> billede</div>
+                        <div className="column-activities"> billede</div>
+                        <div className="column-activities"> billede</div>
                     </div>
                 </section>
             </section>

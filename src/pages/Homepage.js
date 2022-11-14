@@ -13,7 +13,7 @@ export default function HomePage() {
 
             <div class="citycontainer">
                 <img className="city" src="/images/cityscape.png" alt=""></img>
-                <div class="text-block">
+                <div className="text-block">
                     <h4>Aarhus</h4>
                 </div>
             </div>

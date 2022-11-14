@@ -18,18 +18,18 @@ export default function Attractions() {
          {/*main indhold*/}
         <section>
             <div class="row-attractions">
-                <div class="column-attractions"> billede</div>
-                <div class="column-attractions"> billede</div>
+                <div className="column-attractions"> billede</div>
+                <div className="column-attractions"> billede</div>
             </div>
 
             <div class="row-attractions">
-                <div class="column-attractions"> billede</div>
-                <div class="column-attractions"> billede</div>
+                <div className="column-attractions"> billede</div>
+                <div className="column-attractions"> billede</div>
             </div>
 
             <div class="row-attractions">
-                <div class="column-attractions"> billede</div>
-                <div class="column-attractions"> billede</div>
+                <div className="column-attractions"> billede</div>
+                <div className="column-attractions"> billede</div>
             </div>
         </section>
         </section>

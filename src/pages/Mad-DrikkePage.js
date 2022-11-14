@@ -18,18 +18,18 @@ export default function MadDrikkePage() {
          {/*main indhold*/}
         <section>
             <div class="row-mad-drikke">
-                <div class="column-mad-drikke"> billede</div>
-                <div class="column-mad-drikke"> billede</div>
+                <div className="column-mad-drikke"> billede</div>
+                <div className="column-mad-drikke"> billede</div>
             </div>
 
             <div class="row-mad-drikke">
-                <div class="column-mad-drikke"> billede</div>
-                <div class="column-mad-drikke"> billede</div>
+                <div className="column-mad-drikke"> billede</div>
+                <div className="column-mad-drikke"> billede</div>
             </div>
 
             <div class="row-mad-drikke">
-                <div class="column-mad-drikke"> billede</div>
-                <div class="column-mad-drikke"> billede</div>
+                <div className="column-mad-drikke"> billede</div>
+                <div className="column-mad-drikke"> billede</div>
             </div>
         </section>
         </section>

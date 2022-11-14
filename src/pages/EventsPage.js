@@ -18,18 +18,18 @@ export default function Events() {
          {/*main indhold*/}
         <section>
             <div class="row-events">
-                <div class="column-events"> billede</div>
-                <div class="column-events"> billede</div>
+                <div className="column-events"> billede</div>
+                <div className="column-events"> billede</div>
             </div>
 
             <div class="row-events">
-                <div class="column-events"> billede</div>
-                <div class="column-events"> billede</div>
+                <div className="column-events"> billede</div>
+                <div className="column-events"> billede</div>
             </div>
 
             <div class="row-events">
-                <div class="column-events"> billede</div>
-                <div class="column-events"> billede</div>
+                <div className="column-events"> billede</div>
+                <div className="column-events"> billede</div>
             </div>
         </section>
         </section>
