@@ -162,10 +162,20 @@ body{
     margin-top: -0.5rem;
 }
 
+/* tekst for aktivitet delen */
 .indholdstekst3{
     margin-left: 4.9rem;
     margin-top: -0.5rem;
     padding-bottom: 0.3rem;
+}
+
+/* tekst for billet delen */
+
+.indholdstekst4{
+    margin-left: 4.9rem;
+    margin-top: -0.5rem;
+    padding-bottom: 0.3rem;
+    font-size: small;
 }
 
 .bus-ikon{
@@ -179,8 +189,16 @@ body{
     font-size: 22px;
 }
 
+/* edit ikon for aktivitet delen */
 .edit-ikon2{
     padding-left: 1rem;
+    margin-top: -0.2rem;
+    font-size: 22px;
+}
+
+/* edit ikon for billet delen */
+.edit-ikon3{
+    padding-left: 0.5rem;
     margin-top: -0.2rem;
     font-size: 22px;
 }

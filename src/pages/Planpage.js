@@ -74,10 +74,9 @@ export default function Plan() {
                     </div>
                     <div className="indholdskasse">
                         <p className="timing">10:45 </p>
-                        <p className="indholdstekst"> <HiOutlineTicket className="ticket-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
+                        <p className="indholdstekst"> <HiOutlineTicket className="ticket-ikon"/><p className="indholdstekst4">Gå til koncert ved Aarhus Musikhus <FaEdit className="edit-ikon3"/></p></p>
                     </div>
                 </div>
-
             </section>
         </section>
     )
