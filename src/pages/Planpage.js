@@ -43,7 +43,7 @@ export default function Plan() {
                     </div> 
                     <div className="indholdskasse">
                         <p className="timing">10:45 </p>
-                        <p className="indholdstekst"> <MdKayaking className="kajak-ikon"/> Fra: Aarhus Hovedbanegård <br/><p className="indholdstekst2">Til: Marselisborg Dyrehave <FaEdit className="edit-ikon"/></p></p>
+                        <p className="indholdstekst"> <MdKayaking className="kajak-ikon"/><p className="indholdstekst3">Besøg Marselisborg Dyrehave <FaEdit className="edit-ikon2"/></p></p>
                     </div>
                 </div>
                            

@@ -162,6 +162,12 @@ body{
     margin-top: -0.5rem;
 }
 
+.indholdstekst3{
+    margin-left: 4.9rem;
+    margin-top: -0.5rem;
+    padding-bottom: 0.3rem;
+}
+
 .bus-ikon{
     margin-left: 3.3rem;
     font-size: 20px;
@@ -170,6 +176,12 @@ body{
 
 .edit-ikon{
     padding-left: 2.5rem;
+    font-size: 22px;
+}
+
+.edit-ikon2{
+    padding-left: 1rem;
+    margin-top: -0.2rem;
     font-size: 22px;
 }
 
