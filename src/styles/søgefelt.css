@@ -2,18 +2,21 @@
 .søgefelt{
     text-align: center;
     padding-right: 1rem;
+    color: rgb(2, 43, 82);
   }
   
   .søg-ikon{
     position: relative;
     top: 3px;
     left: 2.8vh;
+    color: #000000;
   }
 
   .input-søge{
     padding: 5px 1.7rem;
     border-style: solid;
     border-width: 1.5px;
+    color: rgb(2, 43, 82);
   }
 
   /* lille tekst under søgefeltet*/
@@ -23,7 +26,7 @@
 
   .lille-tekst{
     font-size: 10px;
-    color: black;
+    color: rgb(2, 43, 82);
   }
 
  

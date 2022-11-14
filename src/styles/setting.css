@@ -5,10 +5,12 @@ body{
 .header-settings{
     text-align: center;
     font-size: 20px;
+    color: rgb(2, 43, 82);
 }
 
 .linje{
     width: 80%;
+    color: rgb(2, 43, 82);
 }
 
 /* Pil ikon */
@@ -48,4 +50,5 @@ margin-left: 8rem;
 .settings-tekst{
 font-size: 15px;
 padding-left: 3rem;
+color: rgb(2, 43, 82);
 }
