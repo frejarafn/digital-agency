@@ -2,6 +2,8 @@ import "../styles/activities.css";
 import Header from "../components/Header";
 import Søgefelt from "../components/søgefelt";
 import { MdKayaking } from 'react-icons/md';
+import { HiSearch } from 'react-icons/hi';
+
 export default function activities() {
 
     return (
@@ -26,6 +28,7 @@ export default function activities() {
                     <HiSearch className="søg-ikon" />
                     <input type="text" placeholder="Søg" name="search" />
                 </form>
+            </section>
 
                 <section>
                     <div class="row-activities">
