@@ -2,6 +2,7 @@ import "../styles/home.css";
 import Categories from "../components/Categories";
 import HeaderHome from "../components/HeaderHome";
 
+
 export default function HomePage() {
 
     return (
@@ -20,6 +21,14 @@ export default function HomePage() {
 
 
             <h2 className="home">Hvad vil du gerne opleve?</h2>
+
+            <img className="banner" src="/images/hotspot.png" alt=""></img>
+
+
+
+
+
+
             <Categories></Categories>
         </section>
     )

@@ -9,6 +9,16 @@ body{
     margin: 1em;
 }
 
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+
+}
+
+
 /* Container holding the image and the text */
 .citycontainer {
     position: relative;
@@ -36,4 +46,20 @@ body{
     text-align: center;
     color: #082747;
     font-size: 1.2em;
+  }
+
+
+  .minde-btn {
+    background-size: cover;
+    border: solid 2px #1c3e77;
+    border-radius: 25px;
+    color: white;
+    padding: 40px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .minde-btn1 {
+    background-image: url(/public/images/homebanner.png);
   }
