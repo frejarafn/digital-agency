@@ -38,7 +38,7 @@ export default function Discover() {
                     <NavLink to ="/hotel"> <p className="discover-ikon-tekst">Hotel</p> </NavLink>
                     <NavLink to ="/events"><p className="discover-ikon-tekst">Events</p> </NavLink>
                     <NavLink to ="/activities"><p className="discover-ikon-tekst">Aktiviteter</p></NavLink>
-                    </div>
+                </div>
 
                 <br/>
         </div>
