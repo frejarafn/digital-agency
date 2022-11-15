@@ -24,9 +24,7 @@
     text-align: center;
     justify-content: center;
     display: flex;
-    top: 2rem;
-    margin-top: -4rem;
-    padding-bottom: 2rem;
-    color: white;
+    margin-top: -0.1rem;
+    color: rgb(2, 43, 82);
     z-index: 8;
   }
