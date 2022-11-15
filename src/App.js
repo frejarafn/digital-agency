@@ -1,4 +1,3 @@
-import './App.css';
 import HomePage from "./pages/HomePage.js";
 import DiscoverPage from './pages/DiscoverPage.js';
 import PlanPage from './pages/PlanPage.js';
