@@ -19,7 +19,6 @@ export default function Attractions(props) {
 
     return (
         <>
-            <h2>Kategorier</h2>
             {
                 attractions.map(place => (<PlaceAttraction place={place} key={place.Id} />))
             }
