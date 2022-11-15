@@ -4,6 +4,9 @@
     justify-content: center;
     text-align: center;
     color: rgb(2, 43, 82);
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
   }
   
   .row-at:after {
@@ -21,4 +24,15 @@
     text-align: center;
     justify-content: center;
     display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #overskrifth4 {
+    text-align: center;
+    justify-content: center;
+
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
   }
