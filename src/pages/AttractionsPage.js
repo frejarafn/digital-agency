@@ -21,22 +21,6 @@ export default function AttractionsPage() {
             <Søgefelt />
 
             {/*main indhold*/}
-            <section>
-                <div className="row-attractions">
-                    <div className="column-attractions"> billede</div>
-                    <div className="column-attractions"> billede</div>
-                </div>
-
-                <div className="row-attractions">
-                    <div className="column-attractions"> billede</div>
-                    <div className="column-attractions"> billede</div>
-                </div>
-
-                <div className="row-attractions">
-                    <div className="column-attractions"> billede</div>
-                    <div className="column-attractions"> billede</div>
-                </div>
-            </section>
             <Attractions id={params.Id}></Attractions>
 
         </section>
