@@ -25,6 +25,9 @@
     font-weight: 700;
     font-style: normal;
     z-index: 2;
-    text-decoration: none;
    
+}
+
+.placename {
+  text-decoration: none;
 }

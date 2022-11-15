@@ -12,7 +12,6 @@ export default function AttractionsPage() {
         <section>
             <Header />
 
-            <Attractions id={params.Id}></Attractions>
             {/*intro*/}
             <div className="attraktion">
                 <MdOutlineAttractions className="attraktion-ikon2" />
@@ -38,6 +37,8 @@ export default function AttractionsPage() {
                     <div className="column-attractions"> billede</div>
                 </div>
             </section>
+            <Attractions id={params.Id}></Attractions>
+
         </section>
     )
 }

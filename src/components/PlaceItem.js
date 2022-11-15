@@ -12,7 +12,7 @@ export default function PlaceItem({ place }) {
 
         <img src={place.ImageUrl} alt="sdfsdf" />
 
-        <div >{place.Name}</div>
+        <div className="placename">{place.Name}</div>
 
         {/* <div style={{float:"left", width:"75%"}}>{place.Category.Name}</div> */}
     </div ></Link>;
