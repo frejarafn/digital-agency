@@ -4,19 +4,18 @@
     place-items: center;
     place-content: center;
     padding: 1em;
-  
-  /* grid-template: "container";
-  overflow: hidden;
-  max-height: clamp(450px, 50vh, 600px);
-  position: relative; */
+    text-decoration: none;
+ 
 }
 .category > * {
     grid-area: 1 / 1;
+
   }
 
 .category > img {
     width: 100%;
     opacity: 80%;
+
 }
 
 .category > div {
