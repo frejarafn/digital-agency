@@ -4,12 +4,16 @@
 *
 */
 import "../styles/category.css";
+import { Link } from "react-router-dom";
+
 
 export default function PlaceItem({ place }) {
-    return <div className="category" >
+    return <Link to={'/attractions/' + place.Id}> <div className="category" >
+
         <img src={place.ImageUrl} alt="sdfsdf" />
 
         <div >{place.Name}</div>
+
         {/* <div style={{float:"left", width:"75%"}}>{place.Category.Name}</div> */}
-    </div>;
+    </div ></Link>;
 }
