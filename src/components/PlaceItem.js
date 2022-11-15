@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 export default function PlaceItem({ place }) {
     return <Link to={'/attractions/' + place.Id}> <div className="category" >
 
-        <img src={place.ImageUrl} alt="sdfsdf" />
+        <img src={place.ImageUrl} alt="Underkategori" />
 
         <div className="placename">{place.Name}</div>
 

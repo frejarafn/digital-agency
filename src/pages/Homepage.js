@@ -9,11 +9,11 @@ export default function HomePage() {
         <section>
             <HeaderHome></HeaderHome>
 
-            <img className="banner" src="/images/homebanner.png" alt=""></img>
+            <img className="banner" src="/images/homebanner.png" alt="Banner"></img>
 
 
             <div className="citycontainer">
-                <img className="city" src="/images/cityscape.png" alt=""></img>
+                <img className="city" src="/images/cityscape.png" alt="Skyline"></img>
                 <div className="text-block">
                     <h4>Aarhus</h4>
                 </div>
@@ -22,7 +22,7 @@ export default function HomePage() {
 
             <h2 className="home">Hvad vil du gerne opleve?</h2>
 
-            <img className="banner" src="/images/hotspot.png" alt=""></img>
+            <img className="banner" src="/images/hotspot.png" alt="Hotspot "></img>
 
 
 
