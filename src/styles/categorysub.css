@@ -32,3 +32,12 @@ a {
     color: rgb(2, 43, 82);
     z-index: 8;
   }
+
+  .lorem-tekst{
+    font-size: 12px;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    padding-left: 11px;
+    margin-top: -1rem;
+  }
