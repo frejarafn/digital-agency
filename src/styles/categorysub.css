@@ -16,3 +16,9 @@
   .billede1{
     width: 170px;
   }
+
+  .overskrifter1 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
