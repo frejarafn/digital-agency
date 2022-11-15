@@ -1,6 +1,18 @@
-.categorysub {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
+.column-at {
+    float: left;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(2, 43, 82);
+  }
+  
+  .row-at:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
-    
-}
+
+  .billede1{
+    width: 170px;
+  }

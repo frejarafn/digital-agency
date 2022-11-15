@@ -6,10 +6,17 @@ export default function PlaceAttraction({ place }) {
     return <div className="categorysub" >
 
         <div>
-            <img src={place.ImageUrl} alt="sdfsdf" />
 
+        <div className="at-events">
+                <div className="column-at"> <img src={place.ImageUrl} alt="sdfsdf" className="billede1" /></div>
+                <div className="column-at"> <img src={place.ImageUrl} alt="sdfsdf" className="billede1" /></div>
+        </div>
+        <div className="at-events">
+                <div className="column-at"> {place.Name}</div>
+                <div className="column-at"> {place.Name}</div>
+        </div>
 
-            {place.Name}</div>
+            </div>
         {/* <div style={{float:"left", width:"75%"}}>{place.Category.Name}</div> */}
     </div>;
 }
