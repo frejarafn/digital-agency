@@ -20,7 +20,7 @@
     width: 170px;
   }
 
-  .overskrifter1 {
+  .overskrifter1{
     text-align: center;
     justify-content: center;
     display: flex;
@@ -28,4 +28,5 @@
     margin-top: -4rem;
     padding-bottom: 2rem;
     color: white;
+    z-index: 8;
   }
