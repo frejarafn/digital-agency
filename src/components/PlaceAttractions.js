@@ -1,13 +1,15 @@
-import "../styles/category.css";
+import "../styles/categorysub.css";
 
 
 
 export default function PlaceAttraction({ place }) {
-    return <div className="category" >
+    return <div className="categorysub" >
 
-        <img src={place.ImageUrl} alt="sdfsdf" />
+        <div>
+            <img src={place.ImageUrl} alt="sdfsdf" />
 
-        <div >{place.Name}</div>
+
+            {place.Name}</div>
         {/* <div style={{float:"left", width:"75%"}}>{place.Category.Name}</div> */}
     </div>;
 }
