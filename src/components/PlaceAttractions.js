@@ -9,8 +9,7 @@ export default function PlaceAttraction({ place }) {
 
         <div className="at-events">
                 <div className="column-at"> <img src={place.ImageUrl} alt="sdfsdf" className="billede1" />
-                <div className="column-at"> {place.Name}</div>
-                </div>
+                <div className="column-at"> {place.Name}</div> </div>
                 <div className="column-at"> </div>
         </div>
        
